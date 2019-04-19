@@ -1,0 +1,221 @@
+/* sass css style sheet for monarch boutique */
+/* Affair
+--affair-900: #180e1c;
+--affair-800: #26152b;
+--affair-700: #48264d;
+--affair-600: #713a74;
+--affair-500: #914992;
+--affair-400: #a56aa3;
+--affair-200: #b98bb5;
+--affair-100: #cdacc7;
+--affair-80: #e1cddc;
+--affair-20: #f5eef3;
+*/
+/* COLORS */
+html {
+  font-size: 62.5%;
+  font-family: serif;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 56em;
+  margin: auto;
+  color: #26152b;
+  background-color: #e1cddc;
+  padding: 13px;
+}
+
+@media (max-width: 684px) {
+  body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+  body {
+    font-size: 1.35rem;
+  }
+}
+header {
+  float: left;
+  width: 70%;
+  margin: 0, 1.5%;
+  top: 0;
+}
+
+aside {
+  width: 20%;
+  margin: 0, 1.5%;
+  position: fixed;
+  top: 50px;
+  right: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #e1cddc;
+}
+
+section, article {
+  float: left;
+  width: 70%;
+  margin: 0, 1.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: 2.35em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+small, sub, sup {
+  font-size: 75%;
+}
+
+hr {
+  border-color: #914992;
+}
+
+a {
+  text-decoration: none;
+  color: #180e1c;
+}
+
+a:hover {
+  color: #48264d;
+  border-bottom: 2px solid #48264d;
+}
+
+ul {
+  padding-left: 1.4em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 1.5em;
+  padding-left: 1em;
+  border-left: 3px solid #48262d;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Tables */
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5em;
+  border-bottom: 1px solid #48262d;
+}
+
+.logo {
+  z-index: -1;
+  width: 80%;
+}
+
+.address {
+  font-size: 1.15em;
+  padding-left: 1em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* TOP NAV BAR CONFIG*/
+nav {
+  background-color: #26152b;
+  max-width: 38em;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color: #f5eef3;
+  text-align: center;
+  /* padding: 14px 16px; */
+  padding: 2% 0%;
+  text-decoration: none;
+  font-size: 22px;
+  width: 25%;
+}
+
+@media screen and (max-width: 500px) {
+  nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    /* If you want the text to be left-aligned on small screens */
+  }
+}
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #cdacc7;
+  color: #26152b;
+  border-bottom: 0px;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #914992;
+  color: #f5eef3;
+}
+
+/* rounded corners are different color */
+/* .topnav a:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.topnav a:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+} */
+
+/*# sourceMappingURL=butterfly.css.map */
